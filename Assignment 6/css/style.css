@@ -1,0 +1,220 @@
+
+.home-item{
+    background-image:url(../img/profile1.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.leyar{
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 100%;
+}
+
+.navbar.scrolled {
+    background-color: #05012d;
+}
+
+.home-text h1{
+    font-size: 70px;
+}
+.home-text h2{
+    font-size: 50px;
+}
+
+.w-10{
+ width: 12%;
+}
+.home-text h2::after{
+    content: " ";
+    animation-name: desiner ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes desiner {
+    0%{content: "|"}
+    1.3%{content: " D|"}
+    2.7%{content: " De|"}
+    4.05%{content: " Dev|"}
+    5.4%{content: " Deve|"}
+    6.75%{content: " Devel|"}
+    8.1%{content: " Develo|"}
+    9.45%{content: " Develop|"}
+    10.8%{content: " Developer|"}
+    11.8%{content: " Developers|"}
+    12.15%{content: " Develope|"}
+    13.5%{content: " Develop|"}
+    14.85%{content: " Develo|"}
+    16.2%{content: " Devel|"}
+    17.55%{content: " Deve|"}
+    18.9%{content: " Dev|"}
+    20.25%{content: " De|"}
+    21.6%{content: " Des|"}
+    22.95%{content: " Desi|"}
+    24.3%{content: " Desig|"}
+    25.65%{content: " Design|"}
+    27%{content: " Designe|"}
+    28.35%{content: " Designer|"}
+    29%{content: " Designers|"}
+    29.7%{content: " Designe|"}
+    31.05%{content: " Design|"}
+    32.4%{content: " Desig|"}
+    33.75%{content: " Desi|"}
+    35.1%{content: " Des|"}
+    36.45%{content: " De|"}
+    37.8%{content: " D|"}
+    39.15%{content: " |"}
+    40.5%{content: " F|"}
+    41.85%{content: " Fr|"}
+    43.2%{content: " Fre|"}
+    44.55%{content: " Free|"}
+    45.9%{content: " Freel|"}
+    47.25%{content: " Freela|"}
+    48.6%{content: " Freelan|"}
+    49.95%{content: " Freelanc|"}
+    51.3%{content: " Freelance|"}
+    52.65%{content: " Freelancer|"}
+    54%{content: " Freelance|"}
+    55.35%{content: " Freelanc|"}
+    56.7%{content: " Freelan|"}
+    58.05%{content: " Freela|"}
+    59.4%{content: " Freel|"}
+    60.75%{content: " Free|"}
+    62.1%{content: " Fre|"}
+    63.45%{content: " Fr|"}
+    64.8%{content: " F|"}
+    66.15%{content: " |"}
+    67.5%{content: " P|"}
+    68.85%{content: " Ph|"}
+    70.2%{content: " Pho|"}
+    71.55%{content: " Phot|"}
+    72.9%{content: " Photo|"}
+    74.25%{content: " Photog|"}
+    75.6%{content: " Photogr|"}
+    76.95%{content: " Photogra|"}
+    78.9%{content: " Photograp|"}
+    79.65%{content: " Photograph|"}
+    81%{content: " Photographe|"}
+    82.35%{content: " Photographer|"}
+    83.7%{content: " Photographe|"}
+    85.05%{content: " Photograph|"}
+    86.4%{content: " Photograp|"}
+    87.75%{content: " Photogra|"}
+    89.1%{content: " Photogr|"}
+    90.45%{content: " Photog|"}
+    91.8%{content: " Photo|"}
+    93.15%{content: " Photo|"}
+    94.5%{content: " Phot|"}
+    95.85%{content: " Pho|"}
+    97.2%{content: " Ph|"}
+    98.55%{content: " P|"}
+    100%{content: " |"}
+}
+.line a{
+    position: relative;
+}
+.line a::after{
+    content: " ";
+    width: 0;
+    height: 0;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: all .5s;
+}
+.line:hover a::after{
+    width: 80%;
+    height: 2px;
+}
+.dsin{
+    width: 20%;
+    height: 4px;
+    background-color: #0078FF;
+    /* border-radius: 30%; */
+}
+.items{
+    background-image:url(../img/counters-bg.jpg);
+    /* height: 50vh; */
+    width: 100%;
+    background-size: 100% 100%;
+    
+}
+#services .icon{
+    width: 100px;
+    height: 100px;
+    border: solid 10px #0078FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;  
+    transition: all .5s;
+}
+#services .hov:hover .icon{
+    background-color: #0078FF;
+    color: white;
+    border: solid 10px rgba(255, 255, 255, 0.781);
+}
+#conter-section .icon{
+    width: 100px;
+    height: 100px;
+    border: solid 10px #CDE1F8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;  
+
+}
+.bg-blue{
+   background-color: #0077ffb1; 
+   width: 100%;
+   height: 100%;
+}
+.workclr{
+    color: #0078ff;
+}
+.P-all .img-hov img{
+    transition: all 1s;
+}
+.P-all:hover img{
+    transform: scale(1.3);
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.icons .icon{
+width: 75px;
+height: 75px;
+border: solid 3px #0078FF;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+transition: all .5s;
+}
+.icons .icon:hover {
+background-color: #0078FF;
+border: solid 3px rgba(255, 255, 255, 0.781);
+
+}
+.icon:hover a{
+    color: white;
+}
+.bg-img{
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: 100% 100%;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: all .5s;
+}
+a:hover{
+    color: #0078FF;
+}
